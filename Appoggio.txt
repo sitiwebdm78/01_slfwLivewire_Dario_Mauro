@@ -1,0 +1,61 @@
+  /* TABELLA CUSTOM - */
+
+    .custom-table {
+        width: 100%;
+        background: transparent;
+        border-collapse: collapse;
+        color: var(--wht);
+    }
+
+    /* Intestazione */
+    .custom-table thead th {
+        color: var(--ylw);
+        font-weight: 600;
+        text-align: left;
+        padding: 15px 12px;
+        border-bottom: 2px solid var(--ylw);
+        font-size: 16px;
+    }
+
+    /* Celle del corpo */
+    .custom-table tbody td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid rgba(232, 232, 10, 0.2);
+        color: var(--wht);
+    }
+
+    /* Prima colonna (th) */
+    .custom-table tbody th {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid rgba(232, 232, 10, 0.2);
+        color: var(--ylw);
+        font-weight: 500;
+    }
+
+    /* Hover sulle righe */
+    .custom-table tbody tr:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+        cursor: pointer;
+    }
+
+    /* Righe alternate (zebra) */
+    .custom-table tbody tr:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Personalizzazione bordo esterno */
+    .custom-table {
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    /* Responsive - scroll orizzontale su mobile */
+    @media (max-width: 768px) {
+        .custom-table {
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+    }

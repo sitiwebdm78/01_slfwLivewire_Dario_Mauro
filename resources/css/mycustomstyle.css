@@ -54,12 +54,11 @@
     }
 
     .h1sz{
-        font-size: 100px;
+        font-size: 50px;
     }
 
 /* CUSTOM NAVBAR */
 
-    /* Forza il colore dei link nella navbar blu con testo giallo */
     .navbar.bkgblu .nav-link,
     .navbar.bkgblu .navbar-brand {
         color: var(--ylw) !important;
@@ -67,77 +66,17 @@
 
     .navbar.bkgblu .nav-link:hover,
     .navbar.bkgblu .navbar-brand:hover {
-        color: var(--wht) !important; /* Giallo più chiaro o bianco in hover */
+        color: var(--wht) !important;
     }
    
 /* CUSTOM HEADER */
 
    .masthead {
         height: 25vh;
-        min-height: 500px;
+        min-height: 250px;
         background-color: var(--ylw);
     
     }
 
-   /* TABELLA CUSTOM - */
-
-    .custom-table {
-        width: 100%;
-        background: transparent;
-        border-collapse: collapse;
-        color: var(--wht);
-    }
-
-    /* Intestazione */
-    .custom-table thead th {
-        color: var(--ylw);
-        font-weight: 600;
-        text-align: left;
-        padding: 15px 12px;
-        border-bottom: 2px solid var(--ylw);
-        font-size: 16px;
-    }
-
-    /* Celle del corpo */
-    .custom-table tbody td {
-        padding: 12px;
-        text-align: left;
-        border-bottom: 1px solid rgba(232, 232, 10, 0.2);
-        color: var(--wht);
-    }
-
-    /* Prima colonna (th) */
-    .custom-table tbody th {
-        padding: 12px;
-        text-align: left;
-        border-bottom: 1px solid rgba(232, 232, 10, 0.2);
-        color: var(--ylw);
-        font-weight: 500;
-    }
-
-    /* Hover sulle righe */
-    .custom-table tbody tr:hover {
-        background-color: rgba(255, 255, 255, 0.05);
-        cursor: pointer;
-    }
-
-    /* Righe alternate (zebra) */
-    .custom-table tbody tr:nth-child(even) {
-        background-color: rgba(255, 255, 255, 0.02);
-    }
-
-    /* Personalizzazione bordo esterno */
-    .custom-table {
-        border-radius: 12px;
-        overflow: hidden;
-    }
-
-    /* Responsive - scroll orizzontale su mobile */
-    @media (max-width: 768px) {
-        .custom-table {
-            display: block;
-            overflow-x: auto;
-            white-space: nowrap;
-        }
-    }
+ 
     
