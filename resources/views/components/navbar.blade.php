@@ -5,6 +5,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{route('welcome')}}">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{route('posts')}}">Tutti i Posts</a>
+                </li>
             </ul>
             @guest
             <ul class="navbar-nav d-flex ms-auto ">                    
